@@ -1,6 +1,6 @@
 
 
-# 📈 Simple Linear Regression
+# Simple Linear Regression
 
 This project implements a **simple linear regression model** to study the relationship between **engine size** and **CO₂ emissions** using a real-world vehicle dataset.
 
@@ -8,7 +8,7 @@ The goal is to walk through the **entire machine learning pipeline** step by ste
 
 ---
 
-## 🧠 Project Overview
+## Project Overview
 
 We model the relationship:
 
@@ -20,7 +20,7 @@ This is a **univariate regression problem**, where:
 
 ---
 
-## 📂 Dataset
+## Dataset
 
 The dataset contains vehicle specifications, including:
 - Engine size
@@ -32,7 +32,7 @@ After initial inspection, we select a subset of relevant features for analysis.
 
 ---
 
-## 🧹 Data Preparation
+## Data Preparation
 
 We extract the required columns and convert them into NumPy arrays:
 
@@ -43,7 +43,7 @@ Each row represents **one vehicle**, and the pairing between `X[i]` and `y[i]` i
 
 ---
 
-## 🔀 Train–Test Split
+## Train–Test Split
 
 The dataset is randomly split into:
 
@@ -59,7 +59,7 @@ This helps measure how well the model generalizes to unseen data.
 
 ---
 
-## 🏋️ Model Training
+## Model Training
 
 We train a **Simple Linear Regression** model using scikit-learn.
 
@@ -85,7 +85,7 @@ Although `X` contains only one feature, it is reshaped into a **2D array** becau
 
 ---
 
-## 🔮 Prediction
+## Prediction
 
 After training, we use the model to make predictions on the **test dataset**:
 
@@ -96,7 +96,7 @@ These predictions represent what the model estimates for **previously unseen veh
 
 ---
 
-## 📏 Model Evaluation
+## Model Evaluation
 
 We evaluate model performance using standard regression metrics:
 
@@ -115,7 +115,7 @@ This comparison measures **generalization performance**, not training accuracy.
 
 ---
 
-## 📊 Visualization
+## Visualization
 
 We visualize the results using Matplotlib:
 
@@ -126,7 +126,7 @@ This plot shows how well the learned linear relationship fits unseen data.
 
 ---
 
-## 🧪 Key Takeaways
+## Key Takeaways
 
 - Linear regression learns a global relationship from training data
 - Testing data evaluates how well the model generalizes
@@ -136,7 +136,7 @@ This plot shows how well the learned linear relationship fits unseen data.
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - Python
 - NumPy
@@ -147,7 +147,7 @@ This plot shows how well the learned linear relationship fits unseen data.
 
 ---
 
-## 📌 Notes
+## Notes
 
 This project is intended for **learning and demonstration purposes**, focusing on clarity and conceptual understanding rather than model optimization.
 ```
