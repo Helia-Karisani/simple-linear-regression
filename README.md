@@ -150,7 +150,6 @@ This plot shows how well the learned linear relationship fits unseen data.
 ## Notes
 
 This project is intended for **learning and demonstration purposes**, focusing on clarity and conceptual understanding rather than model optimization.
-```
 
 
 
