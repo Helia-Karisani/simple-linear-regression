@@ -1,3 +1,5 @@
+
+
 # Simple Linear Regression
 
 This project implements a **simple linear regression model** to study the relationship between **engine size** and **CO₂ emissions** using a real-world vehicle dataset.
@@ -68,13 +70,17 @@ We train a **Simple Linear Regression** model using scikit-learn.
 The model equation is:
 
 ```
+
 y = coef_ * x + intercept_
+
 ```
 
 Although `X` contains only one feature, it is reshaped into a **2D array** because scikit-learn expects inputs in the form:
 
 ```
+
 (n_samples, n_features)
+
 ```
 
 ---
@@ -98,6 +104,8 @@ We evaluate model performance using standard regression metrics:
 - **Mean Squared Error (MSE)**
 - **Root Mean Squared Error (RMSE)**
 - **R² Score**
+
+Important clarification:
 
 Although the **training and test sets are disjoint**, we still compute error by comparing:
 - `y_test` → true CO₂ values (known but hidden from training)
@@ -141,4 +149,8 @@ This plot shows how well the learned linear relationship fits unseen data.
 
 ## Notes
 
-This project is intended for learning and demonstration purposes, focusing on clarity and conceptual understanding rather than model optimization.
+This project is intended for **learning and demonstration purposes**, focusing on clarity and conceptual understanding rather than model optimization.
+```
+
+
+
